@@ -1,0 +1,617 @@
+[
+  {
+    "id": "_meta",
+    "name": "Smoke and Fears",
+    "author": "TPHG",
+    "logo": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/_meta.png",
+    "almanac": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/almanac.html"
+  },
+  {
+    "id": "robot_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/robot_smoke_and_fears.png",
+    "firstNightReminder": "Point to a player and show a Townsfolk token to indicate their role.",
+    "reminders": [
+      "Mad",
+      "Safe "
+    ],
+    "name": "Robot",
+    "team": "townsfolk",
+    "ability": "You start knowing an in-play Townsfolk. If you are mad that you are this character, they are safe from evil abilities.",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/FreeKill101/\"\u003Eu/FreeKill101\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1g0lzho/comment/lr9vell/\"\u003EDay 6 of Reddit Designs a Character\u003C/a\u003E",
+    "firstNight": 21
+  },
+  {
+    "id": "folkhero_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/folkhero_smoke_and_fears.png",
+    "firstNightReminder": "Point to a player and show an Outsider character token to indicate their role.",
+    "otherNightReminder": "If the known Outsider is dead to execution and ability has not been used, the Folk Hero shakes their head to not use ability or gives a thumbs up to resurrect the known Outsider. ",
+    "reminders": [
+      "Known",
+      "Executed",
+      "Resurrected",
+      "Used Ability"
+    ],
+    "setup": true,
+    "name": "Folk Hero",
+    "team": "townsfolk",
+    "ability": "You start knowing that 1 player is an Outsider. Once per game, at night*, if they are dead by execution, you may choose to resurrect them. [+0 or +1 Outsider] ",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/tenthousanddrachmas/\"\u003Eu/tenthousanddrachmas\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1grdcen/comment/lx53izp/\"\u003EDay 40 of Reddit Designs a Character\u003C/a\u003E",
+    "firstNight": 20,
+    "otherNight": 14
+  },
+  {
+    "id": "soothsayer_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/soothsayer_smoke_and_fears.png",
+    "otherNightReminder": "If the Soothsayer made a true statement about the player executed today, give them a thumbs up. Do not wake if they made no statement or a false statement.",
+    "reminders": [
+      "True"
+    ],
+    "name": "Soothsayer",
+    "team": "townsfolk",
+    "ability": "Each day, before nominations, you may make a public statement about today's executee. That night, learn if your statement is true. ",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/CrazyFuton/\"\u003Eu/CrazyFuton\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1givcnw/comment/lv8nzaq/\"\u003EDay 30 of Reddit Designs a Character\u003C/a\u003E",
+    "otherNight": 21
+  },
+  {
+    "id": "firedancer_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/firedancer_smoke_and_fears.png",
+    "otherNightReminder": "If the Firedancer chose the closest evil character to them today, then you point to two players, one of which is that evil character, and the Firedancer dies.",
+    "reminders": [
+      "Dead",
+      "Wrong",
+      "Evil"
+    ],
+    "name": "Firedancer",
+    "team": "townsfolk",
+    "ability": "Each day, you may publicly choose an evil character. If it is the closest evil character to you, you die that night & learn that it is 1 of 2 players.",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/RoxxApollo/\"\u003Eu/RoxxApollo\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1gucv98/comment/lxt0qiz/\"\u003EDay 44 of Reddit Designs a Character\u003C/a\u003E",
+    "otherNight": 15
+  },
+  {
+    "id": "artificer_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/artificer_smoke_and_fears.png",
+    "otherNightReminder": "The Artificer wakes if that is stated in their custom ability. They may wake earlier or later in the night order at Storyteller discretion.",
+    "reminders": [
+      "Has Ability"
+    ],
+    "name": "Artificer",
+    "team": "townsfolk",
+    "ability": "On your 1st day, you may visit the Storyteller to craft a custom ability for yourself, which may be granted after changes. ",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/CaptainConno810/\"\u003Eu/CaptainConno810\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1gp01mn/comment/lwmj0du/\"\u003EDay 37 of Reddit Designs a Character\u003C/a\u003E",
+    "flavor": "From smoke and scrap, miracles are forged.",
+    "otherNight": 20
+  },
+  {
+    "id": "botanist_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/botanist_smoke_and_fears.png",
+    "otherNightReminder": "If they used ability, on their 2nd night, show them fingers (0, 1, or 2) equaling the number of evil players they chose. On their 3rd night, show the chosen's players character tokens (do not indicate which player is which character). On their 4th night, they point to one of their chosen players and give a thumbs up for live or a thumbs down for die.",
+    "reminders": [
+      "Planted Seed",
+      "Planted Seed",
+      "Night 2",
+      "Night 3",
+      "Night 4"
+    ],
+    "name": "Botanist",
+    "team": "townsfolk",
+    "ability": "On your 1st day, you may publicly choose 2 players. On your 2nd night, learn how many are evil. On your 3rd night, learn their characters. On your 4th night, choose for one to live or die.",
+    "attribution": "Original concept by by \u003Ca href=\"https://www.reddit.com/user/CaptainConno810/\"\u003Eu/CaptainConno810\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1g54h8o/comment/ls8jf0b/\"\u003EDay 12 of Reddit Designs a Character\u003C/a\u003E with edits inspired by \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1g54h8o/comment/lsa1e5j/\"\u003Eu/LilYerrySeinfeld\u003C/a\u003E",
+    "otherNight": 12
+  },
+  {
+    "id": "sheriff_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/sheriff_smoke_and_fears.png",
+    "otherNightReminder": "Once per game, if today or tonight the Sheriff's law was broken, wake them and give a thumbs up to indicate this.",
+    "reminders": [
+      "Law Passed",
+      "Lawbreaker",
+      "Lawbreaker",
+      "Lawbreaker",
+      "Lawbreaker"
+    ],
+    "name": "Sheriff",
+    "team": "townsfolk",
+    "ability": "On your 1st day, you may publicly declare a mechanical law for evil players. The first time this law is broken, you learn so that night. ",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/FreeKill101/\"\u003Eu/FreeKill101\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1fwtyw0/comment/lqhk6ii/\"\u003EDay 1 of Reddit Designs a Character\u003C/a\u003E",
+    "otherNight": 25
+  },
+  {
+    "id": "banker_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/banker_smoke_and_fears.png",
+    "firstNightReminder": "The Banker shakes their head to not use their power or gives a thumbs up to use it. If used, show them an in-play character token for each night they have had this ability.",
+    "otherNightReminder": "If ability has not been used, then Banker shakes their head to not use their power or gives a thumbs up to use it. If used, show them an in-play character token for each night they have had this ability.",
+    "reminders": [
+      "Banked",
+      "Banked",
+      "Banked",
+      "Banked",
+      "Banked",
+      "Banked",
+      "Banked",
+      "Banked",
+      "Used Ability"
+    ],
+    "name": "Banker",
+    "team": "townsfolk",
+    "ability": "Once per game, at night, choose to learn X in-play characters where X is the number of nights you have had this ability. ",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/Hizoja/\"\u003Eu/Hizoja\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1h91na4/comment/m0xejju/\"\u003EDay 63 of Reddit Designs a Character\u003C/a\u003E",
+    "firstNight": 22,
+    "otherNight": 22
+  },
+  {
+    "id": "gryff_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/gryff_smoke_and_fears.png",
+    "otherNightReminder": "If ability has not been used, then Gryff shakes their head to not use their power, or points to a player dead to execution from today. Show them their character & if they are a Townsfolk then they are resurrected.",
+    "reminders": [
+      "Resurrected",
+      "Used Ability"
+    ],
+    "name": "Gryff",
+    "team": "townsfolk",
+    "ability": "Once per game, at night*, if a player is dead by execution from today, choose to learn their character. If they are a Townsfolk, they are resurrected. ",
+    "attribution": "Original concept by \u003Ca href=\"https://www.reddit.com/user/TheMudkipKeeper/\"\u003Eu/TheMudkipKeeper\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1gxiiw3/comment/lyha701/\"\u003EDay 48 of Reddit Designs a Character\u003C/a\u003E",
+    "otherNight": 13
+  },
+  {
+    "id": "magus_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/magus_smoke_and_fears.png",
+    "otherNightReminder": "If ability has not been used, then Magus shakes their head to not use their power, or points clockwise or counterclockwise. That night, evil players' target(s) are moved one step in that direction.",
+    "reminders": [
+      "Used Ability",
+      "Clockwise",
+      "Counterclockwise"
+    ],
+    "name": "Magus",
+    "team": "townsfolk",
+    "ability": "Once per game, at night*, point clockwise or anticlockwise: that night evil players' target(s) are moved one step in the chosen direction. ",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/CrazyFuton/\"\u003Eu/CrazyFuton\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1g5yqc0/comment/lsewpjg/\"\u003EDay 13 of Reddit Designs a Character\u003C/a\u003E",
+    "otherNight": 4
+  },
+  {
+    "id": "champion_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/champion_smoke_and_fears.png",
+    "otherNightReminder": "Decide if the Champion dies. If this happens, do not wake evil players that night.",
+    "reminders": [
+      "Dead",
+      "Doesn't Wake",
+      "Doesn't Wake",
+      "Doesn't Wake",
+      "Doesn't Wake",
+      "Doesn't Wake"
+    ],
+    "name": "Champion",
+    "team": "townsfolk",
+    "ability": "You are safe from evil abilities. Once per game, at night*, you might die. If you die to your ability, evil players don’t wake that night. ",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/LemonSneeze7239/\"\u003Eu/LemonSneeze7239\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1g4e7b5/comment/ls2qhfa/\"\u003EDay 11 of Reddit Designs a Character\u003C/a\u003E",
+    "otherNight": 5
+  },
+  {
+    "id": "paladin_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/paladin_smoke_and_fears.png",
+    "otherNightReminder": "If one of the Paladin's living neighbors is registering as a Minion, they both die now.",
+    "reminders": [
+      "Justice Pending",
+      "Dead"
+    ],
+    "name": "Paladin",
+    "team": "townsfolk",
+    "ability": "Each night*, if one of your living neighbors is a Minion, you both die. If five or less players live, you lose this ability.",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/arayaz/\"\u003Eu/arayaz\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1gdi06b/comment/lu1udq1/\"\u003EDay 23 of Reddit Designs a Character\u003C/a\u003E",
+    "otherNight": 16
+  },
+  {
+    "id": "rabbit_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/rabbit_smoke_and_fears.png",
+    "otherNightReminder": "If the Rabbit died tonight, something good happens to their team. Inform them now during the night, or privately the next day if necessary.",
+    "reminders": [
+      "Something Good"
+    ],
+    "name": "Rabbit",
+    "team": "townsfolk",
+    "ability": "If you die at night, something good happens to your team and you learn what.",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/RoxxApollo/\"\u003Eu/RoxxApollo\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1gswxga/comment/lxhrtm3/\"\u003EDay 42 of Reddit Designs a Character\u003C/a\u003E",
+    "otherNight": 19
+  },
+  {
+    "id": "idealist_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/idealist_smoke_and_fears.png",
+    "reminders": [
+      "Idealist's Gaze"
+    ],
+    "name": "Idealist",
+    "team": "outsider",
+    "ability": "Your closest alive evil neighbor might register as good & as a Townsfolk or Outsider, even if you're dead. ",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/TPHG/\"\u003Eu/TPHG\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1h5ys1u/comment/m09myab/\"\u003EDay 59 of Reddit Designs a Character\u003C/a\u003E",
+    "flavor": "I can fix them!"
+  },
+  {
+    "id": "sadist_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/sadist_smoke_and_fears.png",
+    "otherNightReminder": "If both of the Sadist's living neighbors are good and one died yesterday or tonight, decide if the other neighbor dies now.",
+    "reminders": [
+      "Plaything",
+      "Plaything",
+      "Dead"
+    ],
+    "name": "Sadist",
+    "team": "outsider",
+    "ability": "If both of your living neighbors are good, when one of them dies, that night the other might die. ",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/Lucky_Stiff/\"\u003Eu/Lucky_Stiff\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1gjvxm6/comment/lvggt89/\"\u003EDay 31 of Reddit Designs a Character\u003C/a\u003E",
+    "flavor": "They say misery loves company.",
+    "otherNight": 17
+  },
+  {
+    "id": "ingnue_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/ingnue_smoke_and_fears.png",
+    "otherNightReminder": "If the Ingénue died yesterday or tonight, wake the Demon to show them the Grimoire now.",
+    "reminders": [
+      "Spilled the Tea"
+    ],
+    "name": "Ingénue",
+    "team": "outsider",
+    "ability": "If you die, the Demon sees the Grimoire that night. ",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/Doctor__Bones/\"\u003Eu/Doctor__Bones\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1g1f3tc/comment/lrg5jd7/\"\u003EDay 7 of Reddit Designs a Character\u003C/a\u003E",
+    "flavor": "What's that saying? Something something killed the cat. Turns out, it also gave the Demon a map.",
+    "otherNight": 23
+  },
+  {
+    "id": "aberration_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/aberration_smoke_and_fears.png",
+    "reminders": [
+      "Aberrant Ability",
+      "Aberrant Ability",
+      "Aberrant Ability",
+      "Aberrant Ability",
+      "Aberrant Ability"
+    ],
+    "setup": true,
+    "name": "Aberration",
+    "team": "outsider",
+    "ability": "You might not register to other players & good abilities interacting with you work arbitrarily, even if you're dead. [+0 or +1 Outsider]",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/WeaponB/\"\u003Eu/WeaponB\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1g8vym5/comment/lt23ljm/\"\u003EDay 17 of Reddit Designs a Character\u003C/a\u003E",
+    "flavor": "404 Not Found"
+  },
+  {
+    "id": "geist_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/geist_smoke_and_fears.png",
+    "firstNightReminder": "The Geist is shown 3 players the Storyteller thinks they should choose. They point to a player. They are poisoned and register as an evil Geist.",
+    "reminders": [
+      "Haunted"
+    ],
+    "name": "Geist",
+    "team": "minion",
+    "ability": "You start knowing 3 players the Storyteller thinks you should choose. On your first night, choose a player: they're poisoned and register as an evil Geist, even if you’re dead. ",
+    "special": [
+      {
+        "name": "grimoire",
+        "type": "signal",
+        "time": "night"
+      }
+    ],
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/CrazyFuton/\"\u003Eu/CrazyFuton\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1g9offr/comment/lt7sjkg/\"\u003EDay 18 of Reddit Designs a Character\u003C/a\u003E",
+    "flavor": "Boo. ",
+    "firstNight": 18
+  },
+  {
+    "id": "conquest_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/conquest_smoke_and_fears.png",
+    "firstNightReminder": "Point to the players which are Outsiders.",
+    "reminders": [
+      "Conquerer ",
+      "Executed",
+      "Known",
+      "Known",
+      "Known",
+      "Known"
+    ],
+    "setup": true,
+    "name": "Conquest",
+    "team": "minion",
+    "ability": "You know which players are Outsiders. If all known Outsiders are dead by execution, your team wins tomorrow, even if you’re dead. [+1 Outsider] ",
+    "special": [
+      {
+        "name": "grimoire",
+        "type": "signal",
+        "time": "night"
+      }
+    ],
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/randomijbdsf/\"\u003Eu/randomijbdsf\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1hajmyj/comment/m1ad89g/\"\u003EDay 65 of Reddit Designs a Character\u003C/a\u003E",
+    "flavor": "You cannot hide. I see you. There is no life in the void. Only death.",
+    "firstNight": 19
+  },
+  {
+    "id": "hand_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/hand_smoke_and_fears.png",
+    "otherNightReminder": "The Hand shakes their head to not use their power or points to an alive player. They die and the previously chosen player is resurrected. If the Hand chooses the Demon, they become a Demon and the Demon dies.",
+    "reminders": [
+      "Dead",
+      "Resurrected",
+      "Hand Off"
+    ],
+    "name": "Hand",
+    "team": "minion",
+    "ability": "Each night*, you may choose an alive player: they die and the previously chosen player is resurrected. If you choose the Demon, you become a Demon and they die.",
+    "special": [
+      {
+        "name": "grimoire",
+        "type": "signal",
+        "time": "night"
+      }
+    ],
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/Mostropi/\"\u003Eu/Mostropi\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1gtilyr/comment/lxmhzcl/\"\u003EDay 43 of Reddit Designs a Character\u003C/a\u003E",
+    "flavor": "Fate is putty in my Hand, and I don't lose my grip.",
+    "otherNight": 10
+  },
+  {
+    "id": "kraken_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/kraken_smoke_and_fears.png",
+    "otherNightReminder": "If the Demon voted, the Kraken wakes and decides if the 1st player the Demon voted on lives with a thumbs up or dies with a thumbs down.",
+    "reminders": [
+      "Targeted",
+      "Dead",
+      "Resurrected"
+    ],
+    "name": "Kraken",
+    "team": "minion",
+    "ability": "Each night*, choose if the 1st player the Demon voted for yesterday lives or dies. ",
+    "special": [
+      {
+        "name": "grimoire",
+        "type": "signal",
+        "time": "night"
+      }
+    ],
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/Background-Fix1276/\"\u003Eu/Background-Fix1276\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1gpu1u6/comment/lwt250h/\"\u003EDay 38 of Reddit Designs a Character\u003C/a\u003E",
+    "flavor": "Release the Kraken!",
+    "otherNight": 9
+  },
+  {
+    "id": "emperor_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/emperor_smoke_and_fears.png",
+    "firstNightReminder": "The Emperor points to a player. They are nominated tomorrow with one more vote than is necessary to be executed.",
+    "otherNightReminder": "The Emperor points to a player. They are nominated tomorrow with one more vote than is necessary to be executed.",
+    "reminders": [
+      "On the Block",
+      "Tied",
+      "Tied",
+      "Tied"
+    ],
+    "setup": true,
+    "name": "Emperor",
+    "team": "demon",
+    "ability": "Each night, choose an alive player. The next day, they will be nominated and receive one more vote than is necessary to be executed. If votes tie, all tied players will be executed. [+1 Outsider] ",
+    "special": [
+      {
+        "name": "grimoire",
+        "type": "signal",
+        "time": "night"
+      }
+    ],
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/UprootedGrunt/\"\u003Eu/UprootedGrunt\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1g6q545/comment/lskssgw/\"\u003EDay 14 of Reddit Designs a Character\u003C/a\u003E",
+    "flavor": "Power! Unlimited power!",
+    "firstNight": 23,
+    "otherNight": 24
+  },
+  {
+    "id": "artillerist_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/artillerist_smoke_and_fears.png",
+    "otherNightReminder": "The Artillerist points to a player. They die. If a chosen player is more than 3 steps away, their neighbor might die.",
+    "reminders": [
+      "Dead ",
+      "3 or More Steps"
+    ],
+    "name": "Artillerist",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. If a chosen player is 3 or more steps away, one of their neighbors might die. ",
+    "special": [
+      {
+        "name": "grimoire",
+        "type": "signal",
+        "time": "night"
+      }
+    ],
+    "attribution": "Original concept by \u003Ca href=\"https://www.reddit.com/user/botmatrix/\"\u003Eu/botmatrix\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1gs57t0/comment/lxbjmv0/\"\u003EDay 41 of Reddit Designs a Character\u003C/a\u003E",
+    "flavor": "A certified Weapon of Maths Destruction (WMD)",
+    "otherNight": 7
+  },
+  {
+    "id": "amalgam_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/amalgam_smoke_and_fears.png",
+    "firstNightReminder": "If Amalgam starts with an ability that wakes night one, they act accordingly at that spot in the night order.",
+    "otherNightReminder": "If Amalgam has no other ability, they point to a player. They die. If they have another ability, they act accordingly at that spot in the night order.",
+    "reminders": [
+      "Geist",
+      "Hand",
+      "Kraken",
+      "Conquest",
+      "Emperor",
+      "Old Scratch ",
+      "Artillerist ",
+      "Dead"
+    ],
+    "name": "Amalgam",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. You might have a not-in-play evil ability each night instead. ",
+    "special": [
+      {
+        "name": "grimoire",
+        "type": "signal",
+        "time": "night"
+      }
+    ],
+    "attribution": "Original concept by \u003Ca href=\"https://www.reddit.com/user/TPHG/\"\u003Eu/TPHG\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1gy8297/comment/lymosjp/\"\u003EDay 49 of Reddit Designs a Character\u003C/a\u003E",
+    "flavor": "I am not one—I am many. And I am everywhere.",
+    "firstNight": 17,
+    "otherNight": 6
+  },
+  {
+    "id": "oldscratch_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/oldscratch_smoke_and_fears.png",
+    "firstNightReminder": "Minions are informed together who the Demon is. Do not give bluffs. Do not wake the Demon.",
+    "otherNightReminder": "Minions wake together and point to a player within 5 seconds. They cannot change their selection. If they cannot agree, a player might die or no one dies. If they can agree, their chosen player dies.",
+    "reminders": [
+      "Dead"
+    ],
+    "remindersGlobal": [
+      "Is Old Scratch "
+    ],
+    "setup": true,
+    "name": "Old Scratch",
+    "team": "demon",
+    "ability": "Minions know who you are & might register as Old Scratch. Each night*, they choose a player: they might die. You think you are a Townsfolk, but you are not. [+1 Minion]",
+    "special": [
+      {
+        "name": "grimoire",
+        "type": "signal",
+        "time": "night"
+      },
+      {
+      "name": "replace-character",
+      "type": "reveal" 
+      },
+      {
+      "name": "bag-disabled",
+      "type": "selection" 
+      }
+    ],
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/Mryoung04/\"\u003Eu/Mryoung04\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1g3ktk6/comment/lrx0y2f/\"\u003EDay 10 of Reddit Designs a Character\u003C/a\u003E",
+    "flavor": "All I wanted was peace, quiet, and maybe a small rose garden. They used to call me Old Scratch, but these days I'm feeling more scratch golfer. Retirement suits me. My Minions just never got the memo. Swear on Satan!",
+    "firstNight": 16,
+    "otherNight": 8
+  },
+  {
+    "id": "echo_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/echo_smoke_and_fears.png",
+    "firstNightReminder": "Inform Echo of their alignment and give them a secret word.",
+    "otherNightReminder": "The 1st time a dead player of Echo's alignment (not a Demon) says the secret word, they are resurrected that night.",
+    "reminders": [
+      "Said Word"
+    ],
+    "name": "Echo",
+    "team": "traveller",
+    "ability": "You start knowing a secret word. The 1st dead player of your alignment (not a Demon) to say this word is resurrected that night.",
+    "attribution": "Created for Smoke and Fears by \u003Ca href=\"https://www.reddit.com/user/TPHG/\"\u003Eu/TPHG\u003C/a\u003E",
+    "firstNight": 14,
+    "otherNight": 3
+  },
+  {
+    "id": "orator_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/orator_smoke_and_fears.png",
+    "firstNightReminder": "Inform the Orator of their alignment.",
+    "name": "Orator",
+    "team": "traveller",
+    "ability": "Each day, visit the Storyteller to learn something interesting that happened last night. ",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/PointlessVenture/\"\u003Eu/PointlessVenture\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1gqmgbw/comment/lwzeo8w/\"\u003EDay 39 of Reddit Designs a Character\u003C/a\u003E",
+    "firstNight": 11
+  },
+  {
+    "id": "pharaoh_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/pharaoh_smoke_and_fears.png",
+    "firstNightReminder": "Inform the Pharaoh of their alignment.",
+    "reminders": [
+      "Commandment Active",
+      "Rebel",
+      "Rebel",
+      "Rebel",
+      "Rebel",
+      "Rebel"
+    ],
+    "name": "Pharaoh ",
+    "team": "traveller",
+    "ability": "On your first day, visit the Storyteller to create your Commandment. All players know it. If a player not aligned with you breaks it, something bad might happen to their team.",
+    "attribution": "Original concept by \u003Ca href=\"https://www.reddit.com/user/Background-Fix1276/\"\u003Eu/Background-Fix1276\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1h9vr0e/comment/m14mbki/\"\u003EDay 64 of Reddit Designs a Character\u003C/a\u003E",
+    "firstNight": 13
+  },
+  {
+    "id": "duality_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/duality_smoke_and_fears.png",
+    "firstNightReminder": "Inform Duality of their alignment and show an in-play Outsider or Townsfolk token (if good) or Minion token (if Evil) to indicate their ability. Do not tell them who they share the ability with.",
+    "otherNightReminder": "If Duality has an ability that wakes at night, they act at that spot in the night order directly after the player they share the ability with. If either player died today or tonight, the other player dies now. If ether player was resurrected tonight, the other player is resurrected now. ",
+    "reminders": [
+      "Follower",
+      "Dead",
+      "Resurrected"
+    ],
+    "name": "Duality",
+    "team": "traveller",
+    "ability": "You share a character ability (not a Demon) with a player of your alignment. If either dies, the other dies that night & if either are resurrected, both are.",
+    "attribution": "Created for Smoke and Fears by \u003Ca href=\"https://www.reddit.com/user/TPHG/\"\u003Eu/TPHG\u003C/a\u003E",
+    "firstNight": 15,
+    "otherNight": 18
+  },
+  {
+    "id": "canvasser_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/canvasser_smoke_and_fears.png",
+    "firstNightReminder": "Inform the Canvasser of their alignment.",
+    "reminders": [
+      "Seconded"
+    ],
+    "name": "Canvasser",
+    "team": "traveller",
+    "ability": "Nominations require a second nominator or fail. Each day, you may nominate more than once. ",
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/CrazyFuton/\"\u003Eu/CrazyFuton\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1gkhstj/comment/lvlhj8o/\"\u003EDay 32 of Reddit Designs a Character\u003C/a\u003E",
+    "firstNight": 12
+  },
+  {
+    "id": "pilgrim_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/pilgrim_smoke_and_fears.png",
+    "remindersGlobal": [
+      "Townsfolk",
+      "Minion"
+    ],
+    "name": "Pilgrim",
+    "team": "fabled",
+    "ability": "Characters might be replaced with Travelers in setup. Travelers are treated normally for voting, execution, and player count.",
+    "special": [
+      {
+      "name": "bag-disabled",
+      "type": "selection"
+      },
+      {
+      "name": "distribute-roles",
+      "type": "ability" 
+      }
+    ],
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/radiantchaos18/\"\u003Eu/radiantchaos18\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1h6ohun/comment/m0f2kyy/\"\u003EDay 60 of Reddit Designs a Character\u003C/a\u003E"
+  },
+  {
+    "id": "death_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/death_smoke_and_fears.png",
+    "otherNightReminder": "Decide if a player dies this way tonight. If they do, immediately wake 1 good player then point to a player & show the Death token to indicate who died this way.",
+    "remindersGlobal": [
+      "Dead",
+      "Death's Messenger"
+    ],
+    "name": "Death",
+    "team": "fabled",
+    "ability": "Each night*, a player might die. That night, 1 good player learns who died this way.",
+    "special": [
+      {
+        "name": "bag-disabled",
+        "type": "selection"
+      }
+    ],
+    "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/UprootedGrunt/\"\u003Eu/UprootedGrunt\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1hcryel/comment/m1qgkey/\"\u003EDay 68 of Reddit Designs a Character\u003C/a\u003E",
+    "otherNight": 11
+  },
+  {
+    "id": "life_smoke_and_fears",
+    "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/life_smoke_and_fears.png",
+    "otherNightReminder": "Decide if a player is resurrected this way tonight. If they are, immediately wake 1 good player and then point to a player & show the Life token to indicate who was resurrected this way.",
+    "remindersGlobal": [
+      "Resurrected",
+      "Life's Envoy"
+    ],
+    "name": "Life",
+    "team": "fabled",
+    "ability": "Each night*, a dead player might be resurrected. That night, 1 good player learns who was resurrected this way.",
+    "special": [
+      {
+        "name": "bag-disabled",
+        "type": "selection"
+      }
+    ],
+    "attribution": "Created for Smoke and Fears by \u003Ca href=\"https://www.reddit.com/user/TPHG/\"\u003Eu/TPHG\u003C/a\u003E",
+    "otherNight": 2
+  }
+]
