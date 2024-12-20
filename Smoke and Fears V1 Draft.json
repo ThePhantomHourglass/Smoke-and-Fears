@@ -9,7 +9,7 @@
   {
     "id": "robot_smoke_and_fears",
     "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/robot_smoke_and_fears.png",
-    "firstNightReminder": "Point to a player and show a Townsfolk token to indicate their role.",
+    "firstNightReminder": "Show an in-play Townsfolk token.",
     "reminders": [
       "Mad",
       "Safe "
