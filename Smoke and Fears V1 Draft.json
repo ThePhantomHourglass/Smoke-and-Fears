@@ -23,7 +23,7 @@
   {
     "id": "folkhero_smoke_and_fears",
     "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/folkhero_smoke_and_fears.png",
-    "firstNightReminder": "Point to a player and show an Outsider character token to indicate their role.",
+    "firstNightReminder": "Point to a player to indicate they are an Outsider.",
     "otherNightReminder": "If the known Outsider is dead to execution and ability has not been used, the Folk Hero shakes their head to not use ability or gives a thumbs up to resurrect the known Outsider. ",
     "reminders": [
       "Known",
