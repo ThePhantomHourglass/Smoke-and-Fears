@@ -417,8 +417,8 @@
   {
     "id": "amalgam_smoke_and_fears",
     "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/amalgam_smoke_and_fears.png",
-    "firstNightReminder": "Amalgam shakes their head if they do not want another ability or nods if they want a not-in-play evil ability instead. At your discretion, you may give the Amalgam an evil ability that wakes night one. Wake them at the appropriate spot in the night order for that role.",
-    "otherNightReminder": "Amalgam shakes their head if they do not want another ability or nods if they want a not-in-play evil ability instead. At your discretion, you may give the Amalgam any not-in-play evil ability. Wake them at the appropriate spot in the night order for that role.",
+    "firstNightReminder": "Amalgam shakes their head if they do not want another ability or points to any evil ability on the character sheet. At your discretion, you may give the Amalgam that ability or prompt them to choose again. Wake them at the appropriate spot in the night order for any character ability they have.",
+    "otherNightReminder": "Amalgam shakes their head if they do not want another ability or points to any evil ability on the character sheet. At your discretion, you may give the Amalgam that ability or prompt them to choose again. Wake them at the appropriate spot in the night order for any character ability they have.",
     "reminders": [
       "Geist",
       "Hand",
@@ -431,7 +431,7 @@
     ],
     "name": "Amalgam",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. You can choose to have a not-in-play evil ability each night instead.",
+    "ability": "Each night*, choose a player: they die. You can choose to have a not-in-play evil ability each night instead, and the Storyteller may prompt you to choose differently.",
     "special": [
       {
         "name": "grimoire",
