@@ -202,13 +202,13 @@
   {
     "id": "rabbit_smoke_and_fears",
     "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/rabbit_smoke_and_fears.png",
-    "otherNightReminder": "If the Rabbit died tonight, something good happens to their team. Inform them now during the night, or privately the next day if necessary.",
+    "otherNightReminder": "If the Rabbit died tonight, something good happens to their team. The next day, they may visit you to learn what.",
     "reminders": [
       "Something Good"
     ],
     "name": "Rabbit",
     "team": "townsfolk",
-    "ability": "If you die at night, something good happens to your team and you learn what.",
+    "ability": "If you die at night, something good happens to your team. The next day, you may privately visit the Storyteller to learn what.",
     "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/RoxxApollo/\"\u003Eu/RoxxApollo\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1gswxga/comment/lxhrtm3/\"\u003EDay 42 of Reddit Designs a Character\u003C/a\u003E",
     "otherNight": 19
   },
