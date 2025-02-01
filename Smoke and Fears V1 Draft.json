@@ -24,7 +24,7 @@
   {
     "id": "folkhero_smoke_and_fears",
     "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/folkhero_smoke_and_fears.png",
-    "firstNightReminder": "Point to a player to indicate they are an Outsider. ",
+    "firstNightReminder": "Point to a player to indicate they are an Outsider.",
     "otherNightReminder": "If the known Outsider is dead to execution and ability has not been used, the Folk Hero shakes their head to not use ability or gives a thumbs up to resurrect the known Outsider. ",
     "reminders": [
       "Known",
@@ -280,7 +280,7 @@
     "setup": true,
     "name": "Aberration",
     "team": "outsider",
-    "ability": "You might not register as a player & good abilities interacting with you work arbitrarily, even if you're dead. [+0 or +1 Outsiders]",
+    "ability": "You might not register as a player & good abilities interacting with you work arbitrarily, even if you're dead. [+0 or +1 Outsider]",
     "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/WeaponB/\"\u003Eu/WeaponB\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1g8vym5/comment/lt23ljm/\"\u003EDay 17 of Reddit Designs a Character\u003C/a\u003E",
     "flavor": "404 Not Found"
   },
