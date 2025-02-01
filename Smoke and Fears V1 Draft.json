@@ -88,7 +88,7 @@
   {
     "id": "botanist_smoke_and_fears",
     "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/botanist_smoke_and_fears.png",
-    "otherNightReminder": "If they used ability, on their 2nd night, show them fingers (0, 1, or 2) equaling the number of evil players they chose. On their 3rd night, show the chosen's players character tokens (do not indicate which player is which character). On their 4th night, they point to one of their chosen players and give a thumbs up for live or a thumbs down for die.",
+    "otherNightReminder": "If they used ability, on their 2nd night, show them fingers (0, 1, or 2) equaling the number of evil players they chose. On their 3rd night, show the chosen players' character tokens (do not indicate which player is which character). On their 4th night, they point to one of their chosen players and give a thumbs up for live or a thumbs down for die.",
     "reminders": [
       "Seedling",
       "Seedling",
