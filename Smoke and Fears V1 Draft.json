@@ -461,15 +461,18 @@
     "id": "oldscratch_smoke_and_fears",
     "image": "https://www.bloodstar.xyz/p/TPHG/Smoke_and_Fears/oldscratch_smoke_and_fears.png",
     "firstNightReminder": "Minions are informed together who the Demon is. Do not give bluffs. Do not wake the Demon.",
-    "otherNightReminder": "Minions wake together and point to a player within 5 seconds. They cannot change their selection. If they cannot agree, a player might die or no one dies. If they can agree, their chosen player dies.",
+    "otherNightReminder": "Minions wake together and choose a player to die together after a 10 to 1 countdown. If they do not agree, a player might die or no one dies. If they agree, their chosen player dies.",
     "reminders": [
       "Dead"
     ],
     "remindersGlobal": [
       "Is Old Scratch "
     ],
-        "setup": true,
-        "special": [
+    "setup": true,
+    "name": "Old Scratch",
+    "team": "demon",
+    "ability": "Minions know who you are & might register as Old Scratch. Each night*, they choose a player: they might die. You think you are a Townsfolk, but you are not. [+1 Minion]",
+    "special": [
             {
                 "name": "grimoire",
                 "time": "night",
@@ -483,8 +486,6 @@
                 "name": "bag-disabled",
                 "type": "selection"
             }
-        ],
-        "team": "demon"
     ],
     "attribution": "Created by \u003Ca href=\"https://www.reddit.com/user/Mryoung04/\"\u003Eu/Mryoung04\u003C/a\u003E on \u003Ca href=\"https://www.reddit.com/r/BloodOnTheClocktower/comments/1g3ktk6/comment/lrx0y2f/\"\u003EDay 10 of Reddit Designs a Character\u003C/a\u003E",
     "flavor": "All I wanted was peace, quiet, and maybe a small rose garden. They used to call me Old Scratch, but these days I'm feeling more scratch golfer. Retirement suits me. My Minions just never got the memo. Swear on Satan!",
